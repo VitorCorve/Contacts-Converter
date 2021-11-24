@@ -8,7 +8,7 @@ namespace DataConverter.Service
         {
             Template = new Contact();
 
-            if (data is null) return null;
+            if (data is null) return Template;
 
             Template.ID = Contact.Count;
 
